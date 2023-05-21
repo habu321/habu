@@ -1,0 +1,80 @@
+body{
+    margin: 5%;
+    background-color: aliceblue;
+}
+span{
+    color:purple;
+}
+h1{
+    font-size: 65px;
+    line-height: 20px;
+}
+#color-crimson{
+    color: crimson;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.image{
+    height: 100%;
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width p{
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(coral,rgb(255, 79, 60));
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    color: black;
+    border-left: 10px solid crimson;
+    border-right: 10px solid crimson;
+}
+.image2{
+    height: 80%;
+    width: 70%;
+}
+.dream-big{
+    margin-top: 10%;
+}
+.developer{
+    width: 100%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 5%;
+    margin:5%;
+    border-radius: 0px 30px;
+}
+#front-end-developer{
+    border-left: 10px solid crimson;
+    border-right:10px solid coral;
+}
+#back-end-developer{
+    border-right:10px solid coral;
+    border-left: 10px solid crimson;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    color: dimgrey;
+}
+.half-width1{
+    width: 33%;  
+    margin-left: 30%;
+    margin-right: 25%;
+    border-left: 10px solid crimson;
+    border-right:10px solid coral;
+  
+}
+.developer:hover{
+    background-color: salmon;
+    color: white;
+}
